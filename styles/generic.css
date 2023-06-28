@@ -101,3 +101,7 @@ footer a {
 footer a:visited {
     color: white;
 }
+
+.page-redirect-links {
+    font-size: 1.3rem;
+}
