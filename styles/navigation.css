@@ -1,0 +1,83 @@
+.toolbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(37, 50, 33, 0.8));
+    /* tume, peaaegu hallikas must roheline */
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(37, 43, 33, 0.8)); */
+    /* märksa heledam roheline */
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(72, 129, 97, 0.8)); */
+}
+
+.toolbar > .home > a {
+    color: white;
+}
+
+.toolbar > nav > a:link {
+    color: white;
+}
+
+.toolbar > nav > a:visited {
+    color: gray;
+}
+
+.home {
+    padding: 14px 16px;
+}
+
+.home a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.home a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+.home p {
+    margin: 0;
+    padding: 0;
+}
+
+.home a {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+
+.nav-bar {
+    padding: 14px 16px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    font-family: 'Red Har Display', sans-serif;
+    font-weight: 700;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar a[class*="active"] {
+    text-decoration: underline;
+}
+
+section {
+    position: relative;
+}
+
+section > span {
+    position: absolute;
+    top: -80px;
+}

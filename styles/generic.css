@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    background-color: black;
+    /* background-image: url('../assets/ErleK6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -50px;
+    background-position-x: 0px; */
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+
+.main {
+    display: flexbox;
+    flex-direction: row;
+}
+
+section {
+    background-color: radial-gradient(rgba(0, 0, 0, 1.0), rgba(0,0,0,0));
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact img {
+    max-width: 400px;
+    height: auto;
+}
+
+.contact-info {
+    max-width: 400px;
+    display: inline-block;
+}
+
+.contact::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.videos a {
+    color: white;
+    text-decoration: none;
+}
+
+.videos a:hover {
+    text-decoration: underline;
+}
+
+.videos iframe:not(:last-of-type) {
+    margin-bottom: 1.5cm;
+}
+
+.concerts a {
+    color: white;
+    text-decoration: none;
+}
+
+.concerts a:hover {
+    text-decoration: underline;
+}
+
+.concerts a:visited {
+    color: white;
+}
+
+footer {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+main section:last-of-type {
+    margin-bottom: 100px;
+}
+
+footer i {
+    margin: 0px 5px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
